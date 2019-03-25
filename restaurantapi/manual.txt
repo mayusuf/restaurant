@@ -1,0 +1,12 @@
+1. Install composer.
+2. Unzip the DBW.zip folder. Then copy 3 folders in side this in the server root directory this please don't change the folder name.
+3. 
+   1. Go to the folder "restaurantapi" from the command prompt/line and run the command "composer update".
+   2. Go to the folder "restaurant" from the command prompt/line and run the command "composer update".
+4. open .env file from "restaurantapi" and "restaurant"folder. Configure your database connection.
+5. now you must import the restaurant.sql file which reside in the "restaurantapi/database" folder.
+6. open pdftotext/index.php file and configure database.
+7. Activate CURL libray from php.ini file.
+8. increase ThreadStackSize to 8388608 in "mpm_winnt_module" section in the file "httpd-mpm.conf" if it is windows machine.
+9. Now go inside the folder "restaurantapi" and run the command "php artisan serve --port=8000".
+10. Now go inside the folder "restaurant" and run the command "php artisan serve --port=8080".
