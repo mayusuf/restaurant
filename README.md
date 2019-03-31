@@ -1,5 +1,5 @@
 
-# Datenbanken und Webtechniken Practical Task – Summer Semester 2018
+# Datenbase and Web Technique Practical Task – Summer Semester 2018
 
 A web application which provides a common interface for searching menu or dishes of different 
 restaurants. There are different restaurants with various types of menus and dishes. 
